@@ -1,0 +1,8 @@
+@import "tools/tools";
+@include font-face('OpenSans', 'fonts', 'italic', 400, 'OpenSans', 'OpenSans-Italic', 'woff2');
+@include font-face('OpenSans', 'fonts', 'normal', 400, 'OpenSans', 'OpenSans-Regular', 'woff2');
+@include font-face('OpenSans', 'fonts', 'normal', 700, 'OpenSans', 'OpenSans-Bold', 'woff2');
+@include font-face('OpenSans', 'fonts', 'italic', 700, 'OpenSans', 'OpenSans-BoldItalic', 'woff2');
+body, html {
+  font-family: "OpenSans", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}

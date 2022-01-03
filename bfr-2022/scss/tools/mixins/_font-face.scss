@@ -1,0 +1,14 @@
+@mixin font-face($font-family: Verdana, $font-path: "../font", $font-style: normal, $font-weight: 400, $font-local: Verdana, $font-file-name: Verdana, $unicode-range: "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB", $woff-version: woff2){
+  /* cyrillic */
+  @font-face {
+    font-family: '#{$font-family}';
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-stretch: normal;
+    font-display: swap;
+    src: local('#{$font-local}'), local('#{$font-file-name}'),
+    url('#{$font-path}/#{$font-file-name}.#{$woff-version}') format('#{$woff-version}'),
+    url('#{$font-path}/#{$font-file-name}.ttf')  format('truetype');
+    unicode-range: #{$unicode-range};
+  }
+}

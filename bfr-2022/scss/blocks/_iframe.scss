@@ -1,0 +1,23 @@
+// Iframe
+
+iframe {
+  border: 0;
+}
+
+.modal iframe {
+  width: 100%;
+}
+
+.embed-responsive {
+  iframe {
+    height: 1380px;
+    @media (min-width: 500px) {
+      height: 950px;
+    }
+    width:100%;
+    .sf-toolbar {
+      display: none;
+    }
+  }
+
+}
