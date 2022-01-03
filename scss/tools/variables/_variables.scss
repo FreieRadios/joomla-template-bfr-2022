@@ -1,11 +1,11 @@
 // Global
-$cassiopeia-container-main-bg:        hsl(0, 0%, 95%) !default;
-$cassiopeia-border-color:             hsl(210, 14%, 89%) !default;
-$cassiopeia-box-shadow:               1px 1px 4px hsla(0, 0%, 0%, .1) !default;
-$cassiopeia-block-header-bg:          hsl(0, 0%, 96%) !default;
-$cassiopeia-header-grad:              linear-gradient(135deg, var(--cassiopeia-color-primary) 0%, var(--cassiopeia-color-hover) 100%);
-$cassiopeia-header-grad-rtl:          linear-gradient(135deg, var(--cassiopeia-color-hover) 0%, var(--cassiopeia-color-primary) 100%);
-$cassiopeia-inverted-text-color:      var(--cassiopeia-color-hover);
+$bfr-2022-container-main-bg:        hsl(0, 0%, 95%) !default;
+$bfr-2022-border-color:             hsl(210, 14%, 89%) !default;
+$bfr-2022-box-shadow:               1px 1px 4px hsla(0, 0%, 0%, .1) !default;
+$bfr-2022-block-header-bg:          hsl(0, 0%, 96%) !default;
+$bfr-2022-header-grad:              linear-gradient(135deg, var(--bfr-2022-color-primary) 0%, var(--bfr-2022-color-hover) 100%);
+$bfr-2022-header-grad-rtl:          linear-gradient(135deg, var(--bfr-2022-color-hover) 0%, var(--bfr-2022-color-primary) 100%);
+$bfr-2022-inverted-text-color:      var(--bfr-2022-color-hover);
 
 // Remove prefix added in BS5 for compat with Joomla beta's shipped with Betas
 $variable-prefix:                     "";
@@ -71,7 +71,7 @@ $colors: (
   "white":                            $white
 );
 
-$primary:                             var(--cassiopeia-color-primary);
+$primary:                             var(--bfr-2022-color-primary);
 $primaryBS:                           $blue;
 $secondary:                           $gray-600;
 $success:                             $green;
@@ -136,15 +136,15 @@ $colors: (
 );
 
 // Links
-$link-color:                          var(--cassiopeia-color-link);
-$link-hover-color:                    var(--cassiopeia-color-hover);
+$link-color:                          var(--bfr-2022-color-link);
+$link-hover-color:                    var(--bfr-2022-color-hover);
 
 // Breadcrumbs
 $breadcrumb-active-color:             $gray-700;
 
 // Grid columns
 $grid-gutter-width:                   1em !default;
-$cassiopeia-grid-gutter:              $grid-gutter-width;
+$bfr-2022-grid-gutter:              $grid-gutter-width;
 
 // Components
 $fa-font-path:                        "../../../media/vendor/fontawesome-free/webfonts";
@@ -156,11 +156,11 @@ $treeselect-line-height:              2.2rem;
 $metismenu:                           true !default;
 
 // Toolbar
-$cassiopeia-toolbar-line-height:      1.8rem;
+$bfr-2022-toolbar-line-height:      1.8rem;
 
 // Typography
 $font-family-sans-serif:             -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-family-base:                    var(--cassiopeia-font-family-body, $font-family-sans-serif);
+$font-family-base:                    var(--bfr-2022-font-family-body, $font-family-sans-serif);
 
 // Icons
 $jicon-css-prefix:                    icon !default;
@@ -190,7 +190,7 @@ $input-btn-padding-x:                 1rem;
 $input-max-width:                     100%;
 $input-focus-border-color:            tint-color($standard-color-primary, 50%);
 
-$cassiopeia-input-focus-shadow:       0 0 0 .2rem hsla(0, 0%, 0%, .1);
+$bfr-2022-input-focus-shadow:       0 0 0 .2rem hsla(0, 0%, 0%, .1);
 
 $form-select-indicator-padding:     3rem;
 $form-select-bg:                    $gray-200;
@@ -225,20 +225,20 @@ $zindex-mobile-menu:                  9000;
 $nav-link-padding-y:                  .5rem;
 
 // Navs
-$cassiopeia-tabs-header-bg:           $cassiopeia-block-header-bg;
-$cassiopeia-tabs-active-bg:           hsla(0, 0%, 0%, .3);
-$cassiopeia-tabs-active-highlight:    $primaryBS;
+$bfr-2022-tabs-header-bg:           $bfr-2022-block-header-bg;
+$bfr-2022-tabs-active-bg:           hsla(0, 0%, 0%, .3);
+$bfr-2022-tabs-active-highlight:    $primaryBS;
 
 // Navbar
 $nav-link-height:                     1.5rem + $nav-link-padding-y * 2;
 
 // Cards
-$cassiopeia-card-title-bg:            $cassiopeia-block-header-bg;
-$cassiopeia-card-title-icon-bg:       $cassiopeia-block-header-bg;
-$cassiopeia-card-title-icon-bg-hover: scale-color($cassiopeia-card-title-bg, $lightness: 2%);
+$bfr-2022-card-title-bg:            $bfr-2022-block-header-bg;
+$bfr-2022-card-title-icon-bg:       $bfr-2022-block-header-bg;
+$bfr-2022-card-title-icon-bg-hover: scale-color($bfr-2022-card-title-bg, $lightness: 2%);
 $card-bg-color-light:                 $gray-100;
-$card-bg-color-dark:                  var(--cassiopeia-color-primary);
-$card-border-color:                   $cassiopeia-border-color;
+$card-bg-color-dark:                  var(--bfr-2022-color-primary);
+$card-border-color:                   $bfr-2022-border-color;
 
 // Badges
 $badge-default-bg:                    $gray-600;

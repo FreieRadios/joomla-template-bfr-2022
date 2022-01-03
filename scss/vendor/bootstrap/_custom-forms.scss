@@ -15,7 +15,7 @@
 
   &:focus {
     border-color: #000;
-    box-shadow: $cassiopeia-input-focus-shadow;
+    box-shadow: $bfr-2022-input-focus-shadow;
   }
 
   [dir=rtl] & {
@@ -34,7 +34,7 @@
 
       &:checked {
         color: $white;
-        background-color: var(--cassiopeia-color-primary) !important;
+        background-color: var(--bfr-2022-color-primary) !important;
       }
     }
   }

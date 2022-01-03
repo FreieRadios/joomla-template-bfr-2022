@@ -169,7 +169,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 
 		<?php if ($this->countModules('top-b', true)) : ?>
 		<div class="grid-child container-top-b">
-			<jdoc:include type="modules" name="top-b" style="card" />
+			<jdoc:include type="modules" name="top-b" style="card" />CASSIOPEIA
 		</div>
 		<?php endif; ?>
 
@@ -217,7 +217,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 	<?php endif; ?>
 
 	<?php if ($this->params->get('backTop') == 1) : ?>
-		<a href="#top" id="back-top" class="back-to-top-link" aria-label="<?php echo Text::_('TPL_CASSIOPEIA_BACKTOTOP'); ?>">
+		<a href="#top" id="back-top" class="back-to-top-link" aria-label="<?php echo Text::_('TPL_BFR_2022_BACKTOTOP'); ?>">
 			<span class="icon-arrow-up icon-fw" aria-hidden="true"></span>
 		</a>
 	<?php endif; ?>
