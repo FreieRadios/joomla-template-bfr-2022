@@ -49,6 +49,15 @@
 		<fields name="params">
 			<fieldset name="advanced">
 				<field
+						name="reorderGrid"
+						type="list"
+						default="left-col-top"
+						label="Grid-Sortierung mobil"	>
+					<option value="main-content-top">Hauptinhalt nach oben</option>
+					<option value="left-col-top">Linke Spalte nach oben</option>
+					<option value="right-col-top">Rechte Spalte nach oben</option>
+				</field>
+				<field
 					name="logoFile"
 					type="media"
 					default=""

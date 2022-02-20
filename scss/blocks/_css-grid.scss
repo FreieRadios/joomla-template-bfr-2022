@@ -95,6 +95,31 @@ body {
   grid-area: side-r;
 }
 
+@include media-breakpoint-down(lg) {
+  .mobile-grid-left-col-top {
+    .container-component {
+        grid-area: side-r;
+    }
+    .container-sidebar-left {
+        grid-area: comp;
+    }
+    .container-sidebar-right {
+      grid-area: side-l;
+    }
+  }
+  .mobile-grid-right-col-top {
+    .container-component {
+      grid-area: side-r;
+    }
+    .container-sidebar-left {
+      grid-area: side-l;
+    }
+    .container-sidebar-right {
+      grid-area: comp;
+    }
+  }
+}
+
 .container-main-top {
   grid-area: main-t;
 }

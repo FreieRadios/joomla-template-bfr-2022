@@ -12760,6 +12760,27 @@ body:not(.has-sidebar-right) .site-grid .container-component {
   grid-area: side-r;
 }
 
+@media (max-width: 991.98px) {
+  .mobile-grid-left-col-top .container-component {
+    grid-area: side-r;
+  }
+  .mobile-grid-left-col-top .container-sidebar-left {
+    grid-area: comp;
+  }
+  .mobile-grid-left-col-top .container-sidebar-right {
+    grid-area: side-l;
+  }
+
+  .mobile-grid-right-col-top .container-component {
+    grid-area: side-r;
+  }
+  .mobile-grid-right-col-top .container-sidebar-left {
+    grid-area: side-l;
+  }
+  .mobile-grid-right-col-top .container-sidebar-right {
+    grid-area: comp;
+  }
+}
 .container-main-top {
   grid-area: main-t;
 }

@@ -55,6 +55,10 @@ $wa->usePreset('template.bfr-2022.' . ($this->direction === 'rtl' ? 'rtl' : 'ltr
 		--template-special-color: #001B4C;		
 	}");
 
+// Gridhttps://bfr.home.loc/a
+
+$GridClass = "mobile-grid-". $this->params->get('reorderGrid', 'left-col-top');
+
 // Override 'template.active' asset to set correct ltr/rtl dependency
 $wa->registerStyle('template.active', '', [], [], ['template.bfr-2022.' . ($this->direction === 'rtl' ? 'rtl' : 'ltr')]);
 
@@ -154,7 +158,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
         </div>
 	</header>
 
-	<div class="site-grid">
+	<div class="site-grid <?php echo $GridClass ?>">
 		<?php if ($this->countModules('banner', true)) : ?>
 			<div class="container-banner full-width">
 				<jdoc:include type="modules" name="banner" style="none" />
@@ -169,7 +173,7 @@ $wa->getAsset('style', 'fontawesome')->setAttribute('rel', 'lazy-stylesheet');
 
 		<?php if ($this->countModules('top-b', true)) : ?>
 		<div class="grid-child container-top-b">
-			<jdoc:include type="modules" name="top-b" style="card" />CASSIOPEIA
+			<jdoc:include type="modules" name="top-b" style="card" />
 		</div>
 		<?php endif; ?>
 
