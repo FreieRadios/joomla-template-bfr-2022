@@ -1,0 +1,8 @@
+@media (max-width: 515px) {
+  .page-item {
+    display: none;
+    &:nth-child(14n),  &:nth-child(13n),  &:first-child,  &:nth-child(2) {
+      display: block;
+    }
+  }
+}
