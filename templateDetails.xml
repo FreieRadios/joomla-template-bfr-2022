@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" method="upgrade" client="site">
 	<name>bfr-2022</name>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<creationDate>February 2017</creationDate>
 	<author>Mliebler</author>
 	<authorEmail>michael-liebler@janguo.de</authorEmail>
